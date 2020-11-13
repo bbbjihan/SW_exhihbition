@@ -1,0 +1,151 @@
+  .url_1{cursor:pointer;}
+h2 {
+  color:rgb(251,229,215);
+  font-size : 50px;
+  margin-top:0px;
+  margin-bottom:0px;
+  text-shadow:2px 2px 1px rgb(149,81,36);
+}
+p {
+  font-family:함초롬바탕;
+  color : darkred;
+  font-size : 13px;
+  margin-top:10px;
+  margin-bottom:0px;
+  text-shadow:1px 1px 1px rgb(189,91,28);
+}
+a {
+  color:rgb(237,125,49);
+  font-size:17px;
+  font-weight:900;
+  font-family:"font_1.ttf";
+  vertical-align:middle;
+  margin-top:0px;
+  text-decoration:none;
+}
+body{
+  background-color:rgb(237,125,49);
+  text-align:center;
+  font-family:타이포_쌍문동 B;
+}
+#version{
+  margin-top:0;
+  font-size:4px;
+  text-align:right;
+  color:rgb(251,229,215);
+  font-weight:30;
+}
+#container {
+  background-color:rgb(237,125,49);
+  margin-top:100px;
+  position: relative;
+  border: 1px #888;
+  text-align:center;
+}
+#logo{
+  background-color:rgb(237,125,49);
+  width:400px;
+  height:125px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+  border:1px;
+  border-color:rgb(219,99,19);
+}
+#content{
+  background-color:rgb(237,125,49);
+  width:400px;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+  border:1px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  border-color:rgb(219,99,19);
+}
+#url_1{
+  box-shadow:1px 1px 1px rgb(247,203,174);
+  line-height:43px;
+  background-color:rgb(251,229,215);
+  margin-top:20px;
+  margin-bottom:20px;
+  width:300px;
+  height:50px;
+  border:1px;
+  float:center;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+  border-radius: 10px;
+}
+#url_2{
+  box-shadow:1px 1px 1px rgb(247,203,174);
+  line-height:43px;
+  background-color:rgb(248,203,172);
+  margin-top:20px;
+  margin-bottom:20px;
+  width:300px;
+  height:50px;
+  border:1px;
+  float:center;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+  border-radius: 10px;
+}
+#url_3{
+  box-shadow:1px 1px 1px rgb(247,203,174);
+  line-height:43px;
+  background-color:rgb(244,177,132);
+  margin-top:20px;
+  margin-bottom:20px;
+  width:300px;
+  height:50px;
+  border:1px;
+  float:center;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+  border-radius: 10px;
+}
+#main_content{
+  display:table-cell;
+  vertical-align:middle;
+  background-color:rgb(248,203,172);
+  width:400px;
+  height:400px;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+  border:1px;
+  border-radius: 10px;
+  border-color:rgb(219,99,19);
+}
+#main_content_foralign{
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+}
+#question_button_box{
+  background-color:rgb(248,203,172);
+  width:400px;
+  height:50px;
+  border:1px;
+  border-radius: 10px;
+  border-color:rgb(219,99,19);
+}
+#question_button_1{
+  box-shadow:1px 1px 1px rgb(247,203,174);
+  line-height:43px;
+  background-color:rgb(251,229,215);
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:25px;
+  width:50px;
+  height:48px;
+  border:1px;
+  border-radius: 10px;
+  float:left;
+}
