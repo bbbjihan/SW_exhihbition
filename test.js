@@ -39,5 +39,5 @@ function countdown(){
 		document.write("카운트다운 끝~!")
 		return;
 	}
-	
+
 }

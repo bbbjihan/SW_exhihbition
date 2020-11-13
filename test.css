@@ -37,7 +37,7 @@ body{
 }
 #container {
   background-color:rgb(237,125,49);
-  margin-top:100px;
+  margin-top:30px;
   position: relative;
   border: 1px #888;
   text-align:center;
@@ -45,7 +45,6 @@ body{
 #logo{
   background-color:rgb(237,125,49);
   width:400px;
-  height:125px;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
   position:relative;
