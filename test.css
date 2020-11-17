@@ -44,7 +44,7 @@ body{
 }
 #logo{
   background-color:rgb(237,125,49);
-  width:400px;
+  width:800px;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
   position:relative;
@@ -55,7 +55,7 @@ body{
 }
 #content{
   background-color:rgb(237,125,49);
-  width:400px;
+  width:800px;
   position:relative;
   left:50%;
   transform:translateX(-50%);
@@ -68,10 +68,10 @@ body{
   box-shadow:1px 1px 1px rgb(247,203,174);
   line-height:43px;
   background-color:rgb(251,229,215);
-  margin-top:20px;
-  margin-bottom:20px;
-  width:300px;
-  height:50px;
+  margin-top:50px;
+  margin-bottom:50px;
+  width:600px;
+  height:100px;
   border:1px;
   float:center;
   position:relative;
@@ -83,10 +83,10 @@ body{
   box-shadow:1px 1px 1px rgb(247,203,174);
   line-height:43px;
   background-color:rgb(248,203,172);
-  margin-top:20px;
-  margin-bottom:20px;
-  width:300px;
-  height:50px;
+  margin-top:50px;
+  margin-bottom:50px;
+  width:600px;
+  height:100px;
   border:1px;
   float:center;
   position:relative;
@@ -98,10 +98,10 @@ body{
   box-shadow:1px 1px 1px rgb(247,203,174);
   line-height:43px;
   background-color:rgb(244,177,132);
-  margin-top:20px;
-  margin-bottom:20px;
-  width:300px;
-  height:50px;
+  margin-top:50px;
+  margin-bottom:50px;
+  width:600px;
+  height:100px;
   border:1px;
   float:center;
   position:relative;
@@ -113,8 +113,8 @@ body{
   display:table-cell;
   vertical-align:middle;
   background-color:rgb(248,203,172);
-  width:400px;
-  height:400px;
+  width:800px;
+  height:800px;
   position:relative;
   left:50%;
   transform:translateX(-50%);
@@ -129,8 +129,8 @@ body{
 }
 #question_button_box{
   background-color:rgb(248,203,172);
-  width:400px;
-  height:50px;
+  width:800px;
+  height:100px;
   border:1px;
   border-radius: 10px;
   border-color:rgb(219,99,19);
@@ -141,9 +141,9 @@ body{
   background-color:rgb(251,229,215);
   margin-top:0px;
   margin-bottom:0px;
-  margin-left:25px;
-  width:50px;
-  height:48px;
+  margin-left:50px;
+  width:100px;
+  height:98px;
   border:1px;
   border-radius: 10px;
   float:left;
