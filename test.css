@@ -68,8 +68,8 @@ body{
   box-shadow:1px 1px 1px rgb(247,203,174);
   line-height:95px;
   background-color:rgb(251,229,215);
-  margin-top:50px;
-  margin-bottom:50px;
+  margin-top:20px;
+  margin-bottom:150px;
   width:600px;
   height:100px;
   border:1px;
@@ -83,8 +83,8 @@ body{
   box-shadow:1px 1px 1px rgb(247,203,174);
   line-height:95px;
   background-color:rgb(248,203,172);
-  margin-top:50px;
-  margin-bottom:50px;
+  margin-top:150px;
+  margin-bottom:150px;
   width:600px;
   height:100px;
   border:1px;
@@ -98,8 +98,8 @@ body{
   box-shadow:1px 1px 1px rgb(247,203,174);
   line-height:95px;
   background-color:rgb(244,177,132);
-  margin-top:50px;
-  margin-bottom:50px;
+  margin-top:150px;
+  margin-bottom:200px;
   width:600px;
   height:100px;
   border:1px;
