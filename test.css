@@ -1,15 +1,21 @@
   .url_1{cursor:pointer;}
 h2 {
   color:rgb(251,229,215);
-  font-size : 50px;
+  font-size : 70px;
+  margin-top:0px;
+  margin-bottom:0px;
+  text-shadow:2px 2px 1px rgb(149,81,36);
+}
+h3 {
+  color:rgb(247,15,73);
+  font-size : 70px;
   margin-top:0px;
   margin-bottom:0px;
   text-shadow:2px 2px 1px rgb(149,81,36);
 }
 p {
-  font-family:함초롬바탕;
-  color : darkred;
-  font-size : 13px;
+  color : white;
+  font-size : 20px;
   margin-top:10px;
   margin-bottom:0px;
   text-shadow:1px 1px 1px rgb(189,91,28);
@@ -26,7 +32,7 @@ a {
 body{
   background-color:rgb(237,125,49);
   text-align:center;
-  font-family:타이포_쌍문동 B;
+  font-size:30px;
 }
 #version{
   margin-top:0;
@@ -68,8 +74,8 @@ body{
   box-shadow:1px 1px 1px rgb(247,203,174);
   line-height:95px;
   background-color:rgb(251,229,215);
-  margin-top:20px;
-  margin-bottom:150px;
+  margin-top:50px;
+  margin-bottom:50px;
   width:600px;
   height:100px;
   border:1px;
@@ -83,8 +89,8 @@ body{
   box-shadow:1px 1px 1px rgb(247,203,174);
   line-height:95px;
   background-color:rgb(248,203,172);
-  margin-top:150px;
-  margin-bottom:150px;
+  margin-top:50px;
+  margin-bottom:50px;
   width:600px;
   height:100px;
   border:1px;
@@ -98,8 +104,8 @@ body{
   box-shadow:1px 1px 1px rgb(247,203,174);
   line-height:95px;
   background-color:rgb(244,177,132);
-  margin-top:150px;
-  margin-bottom:200px;
+  margin-top:50px;
+  margin-bottom:50px;
   width:600px;
   height:100px;
   border:1px;
@@ -137,14 +143,46 @@ body{
 }
 #question_button_1{
   box-shadow:1px 1px 1px rgb(247,203,174);
-  line-height:43px;
+  line-height:98px;
   background-color:rgb(251,229,215);
   margin-top:0px;
   margin-bottom:0px;
   margin-left:50px;
   width:100px;
-  height:98px;
+  height:100px;
   border:1px;
   border-radius: 10px;
   float:left;
+}
+#result_box{
+  width:800px;
+  height:300px;
+  border:1px;
+  background-color:(237,125,49)
+  margin-top:100px;
+  margin-bottom:100px;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+}
+#result_1{
+  margin-top:30px;
+  margin-bottom:30px;
+  width:270px;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+}
+#result_2{
+  margin-top:30px;
+  margin-bottom:30px;
+  width:270px;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+}
+#MENU{
+position:relative;
+left:50%;
+transform:translateX(-50%);
 }
