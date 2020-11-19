@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>뭐 먹을래?</title>
+<script src="mm_script.js">
+</script>
+<script>//타이머
+  function Timer() {
+  setTimeout("locateKap()",4500);
+   }
+  function locateKap(){
+   location.replace("result_random.html");
+  }
+</script>
+<style>
+  @import url(mm_style.css);
+</style>
+</head>
+<body onload="Timer();">
+  <div id="container">
+
+    <div id="logo">
+      <h2><img src="logo.jpg" class="url_1" onclick="location.href='main_home.html'"height="105%" width="105%"></h2>
+    </div>
+     <div id="content">
+      <div id="main_content">
+        <div id="loading">
+        <script>loading_random();</script><br>
+        </div>
+        </div>
+      </div>
+      <div id="url_1" class="url_1" onclick="location.href='main_home.html'" onmouseover=text_onmouseover_1(this) onmouseout=text_onmouseout_1(this)>
+        <a>뒤로 가기</a>
+      </div>
+  </div>
+  <footer>
+           <div id="version"><p>ver.1.0(2020-11-13)<br>법학부 이시연, 이다영, 김혜미, 박지한</p></div>
+  </footer>
+</body>
+</html>
