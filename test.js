@@ -28,16 +28,7 @@ function url_2(){
 function url_3(){
 		alert("테스트2입니다요.");
 }
-
-function countdown(){
-	var count = 10;
-	var counter = setInterval(timer, 1000);
-	count--;
-
-	if (count<=0){
-		clearInterval(counter);
-		document.write("카운트다운 끝~!")
-		return;
-	}
-
+function loading_random(){
+	var gif_num = Math.floor(1+Math.random()*3);
+	document.all.loading.innerHTML = "<img src='random_"+gif_num+".gif'>"
 }

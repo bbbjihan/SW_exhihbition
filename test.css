@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=East+Sea+Dokdo&family=Jua&family=Nanum+Myeongjo&display=swap');
 .url_1{cursor:pointer;}
+footer{
+  text-align:center;
+  margin-top:1px;
+}
 h1{
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Jua', sans-serif;
   color:rgb(237,125,49);
-  font-size:50px;
+  font-size:75px;
   vertical-align:middle;
   margin-top:0px;
   text-decoration:none;
@@ -28,7 +32,6 @@ p {
   font-family: 'Nanum Myeongjo', serif;
   color : white;
   font-size : 15px;
-  margin-top:10px;
   margin-bottom:0px;
   text-shadow:2px 2px 1px rgb(189,91,28);
 }
@@ -48,10 +51,9 @@ body{
   font-size:30px;
 }
 #version{
-  margin-top:0;
+  margin-top:10px;
   text-align:center;
   color:rgb(251,229,215);
-  font-weight:30;
 }
 #container {
   background-color:rgb(237,125,49);
@@ -96,6 +98,25 @@ body{
   left:50%;
   transform:translateX(-50%);
   border-radius: 10px;
+}
+#quest_goandback{
+  box-shadow:1px 1px 1px rgb(247,203,174);
+  line-height:95px;
+  background-color:rgb(251,229,215);
+  margin-left:50px;
+  margin-right:50px;
+  width:300px;
+  height:100px;
+  border:1px;
+  border-radius: 10px;
+  float:left;
+}
+#quest_goandback_box{
+  width:804px;
+  height:102px;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
 }
 #url_4{
   box-shadow:5px 5px 1px rgb(247,203,174);
@@ -155,7 +176,7 @@ body{
   border-radius: 10px;
   border-color:rgb(219,99,19);
 }
-#main_content_foralign{
+#loading{
   position:relative;
   left:50%;
   transform:translateX(-50%);
@@ -163,19 +184,25 @@ body{
 #question_button_box{
   background-color:rgb(248,203,172);
   width:800px;
-  height:auto;
+  height:600px;
   border:1px;
-  border-radius: 10px;
+  border-radius:10px;
   border-color:rgb(219,99,19);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#question_button_box_2{
+  width:700px;
 }
 #question_button_1{
   box-shadow:1px 1px 1px rgb(247,203,174);
-  line-height:48px;
+  line-height:74px;
   background-color:rgb(251,229,215);
   margin-top:20px;
   margin-bottom:10px;
   width:700px;
-  height:50px;
+  height:75px;
   border:1px;
   border-radius: 10px;
   position:relative;
